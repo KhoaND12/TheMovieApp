@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MovieDetailSkeletonView" customModule="TheMovieApp" customModuleProvider="target"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="764"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0Do-G7-eR3">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="229"/>
+                    <color key="backgroundColor" name="color.bg.skeletonD3"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="0Do-G7-eR3" secondAttribute="height" multiplier="360:220" id="D0u-jq-zth"/>
+                    </constraints>
+                </view>
+                <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3Qs-hW-ctX">
+                    <rect key="frame" x="16" y="159" width="120" height="180"/>
+                    <color key="backgroundColor" name="color.bg.skeletonD3"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="180" id="iRj-k9-NjS"/>
+                        <constraint firstAttribute="width" constant="120" id="jOJ-rm-nvy"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <real key="value" value="6"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+                <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="p4n-Un-yYN">
+                    <rect key="frame" x="146" y="246" width="160" height="20"/>
+                    <color key="backgroundColor" name="color.bg.skeletonD3"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="160" id="0OT-d4-l2r"/>
+                        <constraint firstAttribute="height" constant="20" id="FmP-Hp-boG"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <real key="value" value="6"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+                <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ReG-F2-TrK">
+                    <rect key="frame" x="146" y="276" width="100" height="20"/>
+                    <color key="backgroundColor" name="color.bg.skeletonD3"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="100" id="Hh9-rn-IUx"/>
+                        <constraint firstAttribute="height" constant="20" id="Q7B-SR-qLX"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <real key="value" value="6"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+                <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="siR-HF-DoX">
+                    <rect key="frame" x="16" y="354" width="343" height="40"/>
+                    <color key="backgroundColor" name="color.bg.skeletonD3"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="ktC-fr-cV6"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <real key="value" value="10"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+                <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Gfd-OL-Tkh">
+                    <rect key="frame" x="16" y="402" width="343" height="146"/>
+                    <color key="backgroundColor" name="color.bg.skeletonD3"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="146" id="Fat-Ll-PTg"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <real key="value" value="10"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+                <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0Sv-CR-r8g">
+                    <rect key="frame" x="70" y="578" width="235" height="60"/>
+                    <color key="backgroundColor" name="color.bg.skeletonD3"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="60" id="i9d-W1-koe"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <real key="value" value="10"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tdd-O6-D2B">
+                    <rect key="frame" x="0.0" y="688" width="375" height="48"/>
+                    <color key="backgroundColor" name="color.bg.skeletonD3"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="48" id="utU-SF-4Yb"/>
+                    </constraints>
+                </view>
+                <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="17x-Iv-EHQ">
+                    <rect key="frame" x="146" y="304" width="50" height="21"/>
+                    <color key="backgroundColor" name="color.bg.skeletonD3"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="INR-vf-Ihj"/>
+                        <constraint firstAttribute="width" constant="50" id="eyo-z9-zJl"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <real key="value" value="10"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+                <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Vtt-jt-Ahp">
+                    <rect key="frame" x="201" y="304" width="70" height="21"/>
+                    <color key="backgroundColor" name="color.bg.skeletonD3"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="70" id="S4X-tN-xRQ"/>
+                        <constraint firstAttribute="height" constant="21" id="kx4-wF-PFe"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <real key="value" value="10"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="0Do-G7-eR3" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="60n-HA-9ZK"/>
+                <constraint firstItem="0Do-G7-eR3" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="8zm-WQ-BL0"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="tdd-O6-D2B" secondAttribute="trailing" id="Amw-Ui-qnP"/>
+                <constraint firstItem="0Sv-CR-r8g" firstAttribute="top" secondItem="Gfd-OL-Tkh" secondAttribute="bottom" constant="30" id="CLZ-td-QZr"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="siR-HF-DoX" secondAttribute="trailing" constant="16" id="EK7-mR-M6m"/>
+                <constraint firstItem="siR-HF-DoX" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="16" id="FQc-4t-RFA"/>
+                <constraint firstItem="17x-Iv-EHQ" firstAttribute="leading" secondItem="3Qs-hW-ctX" secondAttribute="trailing" constant="10" id="L6x-o2-PCh"/>
+                <constraint firstItem="ReG-F2-TrK" firstAttribute="leading" secondItem="3Qs-hW-ctX" secondAttribute="trailing" constant="10" id="LAW-sx-DSn"/>
+                <constraint firstItem="ReG-F2-TrK" firstAttribute="top" secondItem="p4n-Un-yYN" secondAttribute="bottom" constant="10" id="NtX-WY-niM"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="0Sv-CR-r8g" secondAttribute="trailing" constant="70" id="Rz2-oU-Jg1"/>
+                <constraint firstItem="0Sv-CR-r8g" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="70" id="V9t-hi-Tkd"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="0Do-G7-eR3" secondAttribute="trailing" id="VZH-Jf-ZNh"/>
+                <constraint firstItem="siR-HF-DoX" firstAttribute="top" secondItem="3Qs-hW-ctX" secondAttribute="bottom" constant="15" id="Zkz-n8-ChJ"/>
+                <constraint firstItem="p4n-Un-yYN" firstAttribute="leading" secondItem="3Qs-hW-ctX" secondAttribute="trailing" constant="10" id="a33-Z8-SdT"/>
+                <constraint firstItem="tdd-O6-D2B" firstAttribute="top" secondItem="0Sv-CR-r8g" secondAttribute="bottom" constant="50" id="bCc-Nn-Q5r"/>
+                <constraint firstItem="17x-Iv-EHQ" firstAttribute="top" secondItem="ReG-F2-TrK" secondAttribute="bottom" constant="8" symbolic="YES" id="bW8-Rx-mds"/>
+                <constraint firstItem="3Qs-hW-ctX" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="16" id="guj-Sr-VdP"/>
+                <constraint firstItem="3Qs-hW-ctX" firstAttribute="centerY" secondItem="0Do-G7-eR3" secondAttribute="bottom" constant="20" id="jLA-j0-gzw"/>
+                <constraint firstItem="Vtt-jt-Ahp" firstAttribute="leading" secondItem="17x-Iv-EHQ" secondAttribute="trailing" constant="5" id="mUC-mS-rFn"/>
+                <constraint firstItem="tdd-O6-D2B" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="onJ-tO-a7q"/>
+                <constraint firstItem="Vtt-jt-Ahp" firstAttribute="top" secondItem="17x-Iv-EHQ" secondAttribute="top" id="pIH-up-G0w"/>
+                <constraint firstItem="Gfd-OL-Tkh" firstAttribute="top" secondItem="siR-HF-DoX" secondAttribute="bottom" constant="8" symbolic="YES" id="tdk-ad-4t8"/>
+                <constraint firstItem="p4n-Un-yYN" firstAttribute="top" secondItem="0Do-G7-eR3" secondAttribute="bottom" constant="17" id="uXP-HU-HBa"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="Gfd-OL-Tkh" secondAttribute="trailing" constant="16" id="ujH-as-fx9"/>
+                <constraint firstItem="Gfd-OL-Tkh" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="16" id="zid-i4-ilP"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="132" y="98.950524737631198"/>
+        </view>
+    </objects>
+    <resources>
+        <namedColor name="color.bg.skeletonD3">
+            <color red="0.82700002193450928" green="0.82700002193450928" blue="0.82700002193450928" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

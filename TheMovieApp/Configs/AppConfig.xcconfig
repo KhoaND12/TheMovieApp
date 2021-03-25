@@ -1,0 +1,18 @@
+//
+//  AppConfig.xcconfig
+//  TheMovieApp
+//
+//  Created by Khoa Nguyen on 18/03/2021.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+DOMAIN = https:/$()/api.themoviedb.org
+API_ENDPOINT = /3
+
+IMAGE_DOMAIN = https:/$()/image.tmdb.org/t/p/w500
+
+VIDEO_DOMAIN = https:/$()/img.youtube.com/vi/
+
+API_TOKEN = a7b3c9975791294647265c71224a88ad

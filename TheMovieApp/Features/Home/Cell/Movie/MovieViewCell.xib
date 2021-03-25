@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" reuseIdentifier="MovieViewCell" id="gTV-IL-0wX" customClass="MovieViewCell" customModule="TheMovieApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="202" height="257"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="202" height="257"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4mD-Az-Le6">
+                        <rect key="frame" x="0.0" y="0.0" width="202" height="210"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="U8l-7l-dRn">
+                                <rect key="frame" x="0.0" y="0.0" width="202" height="210"/>
+                                <color key="backgroundColor" systemColor="systemGray3Color"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="210" id="1QP-4l-yvQ"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="6"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="U8l-7l-dRn" firstAttribute="leading" secondItem="4mD-Az-Le6" secondAttribute="leading" id="2uz-Yj-Iux"/>
+                            <constraint firstItem="U8l-7l-dRn" firstAttribute="top" secondItem="4mD-Az-Le6" secondAttribute="top" id="600-6x-ozr"/>
+                            <constraint firstAttribute="trailing" secondItem="U8l-7l-dRn" secondAttribute="trailing" id="93V-nQ-J7j"/>
+                            <constraint firstAttribute="height" constant="210" id="c0N-cH-0oA"/>
+                            <constraint firstAttribute="bottom" secondItem="U8l-7l-dRn" secondAttribute="bottom" id="wZb-nJ-jaI"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="6"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Justice League" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jnp-uG-QXD">
+                        <rect key="frame" x="3" y="220" width="191" height="17.5"/>
+                        <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="15"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v6h-T3-Qp5">
+                        <rect key="frame" x="197" y="219" width="5" height="18"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="18" id="2Gc-83-MIK"/>
+                            <constraint firstAttribute="width" constant="5" id="mVe-FH-jFI"/>
+                        </constraints>
+                        <state key="normal" image="icon.detail"/>
+                    </button>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="4mD-Az-Le6" secondAttribute="trailing" id="0P2-QW-kUL"/>
+                <constraint firstItem="Jnp-uG-QXD" firstAttribute="top" secondItem="4mD-Az-Le6" secondAttribute="bottom" constant="10" id="WTf-eT-tdY"/>
+                <constraint firstItem="v6h-T3-Qp5" firstAttribute="leading" secondItem="Jnp-uG-QXD" secondAttribute="trailing" constant="3" id="b8f-6C-S4F"/>
+                <constraint firstAttribute="trailing" secondItem="v6h-T3-Qp5" secondAttribute="trailing" id="qwg-Vy-Prv"/>
+                <constraint firstItem="4mD-Az-Le6" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="s5T-bR-KiY"/>
+                <constraint firstItem="Jnp-uG-QXD" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="3" id="uVJ-DZ-v4O"/>
+                <constraint firstItem="v6h-T3-Qp5" firstAttribute="top" secondItem="4mD-Az-Le6" secondAttribute="bottom" constant="9" id="vzG-vO-Pcm"/>
+                <constraint firstItem="4mD-Az-Le6" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="xdi-jl-ZPb"/>
+            </constraints>
+            <size key="customSize" width="202" height="257"/>
+            <connections>
+                <outlet property="detailButton" destination="v6h-T3-Qp5" id="py4-qc-jqk"/>
+                <outlet property="imageContainerView" destination="4mD-Az-Le6" id="3A6-xx-Kam"/>
+                <outlet property="imageView" destination="U8l-7l-dRn" id="Lyw-r2-RfJ"/>
+                <outlet property="titleLabel" destination="Jnp-uG-QXD" id="vqs-jN-Re6"/>
+            </connections>
+            <point key="canvasLocation" x="242.0289855072464" y="187.83482142857142"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="icon.detail" width="4.5" height="18"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGray3Color">
+            <color red="0.7803921568627451" green="0.7803921568627451" blue="0.80000000000000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

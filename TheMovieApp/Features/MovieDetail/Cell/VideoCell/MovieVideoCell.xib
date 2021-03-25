@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" reuseIdentifier="MovieVideoCell" id="gTV-IL-0wX" customClass="MovieVideoCell" customModule="TheMovieApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="300" height="109"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="300" height="109"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="LGO-Cu-tX1">
+                        <rect key="frame" x="0.0" y="0.0" width="300" height="109"/>
+                        <color key="backgroundColor" systemColor="systemGray4Color"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="12"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </imageView>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SqH-U3-cNa">
+                        <rect key="frame" x="130" y="34.5" width="40" height="40"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="40" id="Rp6-AT-47y"/>
+                            <constraint firstAttribute="width" secondItem="SqH-U3-cNa" secondAttribute="height" id="fiQ-jh-ObV"/>
+                        </constraints>
+                        <state key="normal" image="icon.play.white"/>
+                    </button>
+                </subviews>
+            </view>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="SqH-U3-cNa" firstAttribute="centerY" secondItem="LGO-Cu-tX1" secondAttribute="centerY" id="O6G-NK-gge"/>
+                <constraint firstItem="LGO-Cu-tX1" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="PJu-Gi-w9D"/>
+                <constraint firstItem="LGO-Cu-tX1" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="PM8-w2-sjL"/>
+                <constraint firstItem="SqH-U3-cNa" firstAttribute="centerX" secondItem="LGO-Cu-tX1" secondAttribute="centerX" id="PR2-Jm-D3U"/>
+                <constraint firstAttribute="trailing" secondItem="LGO-Cu-tX1" secondAttribute="trailing" id="UnC-yo-8yJ"/>
+                <constraint firstAttribute="bottom" secondItem="LGO-Cu-tX1" secondAttribute="bottom" id="WG1-0B-uv4"/>
+            </constraints>
+            <size key="customSize" width="300" height="109"/>
+            <connections>
+                <outlet property="imageVideoView" destination="LGO-Cu-tX1" id="wvR-bM-t3Y"/>
+                <outlet property="playButton" destination="SqH-U3-cNa" id="mv2-jQ-UIM"/>
+            </connections>
+            <point key="canvasLocation" x="-49.275362318840585" y="-11.049107142857142"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="icon.play.white" width="40" height="40"/>
+        <systemColor name="systemGray4Color">
+            <color red="0.81960784313725488" green="0.81960784313725488" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

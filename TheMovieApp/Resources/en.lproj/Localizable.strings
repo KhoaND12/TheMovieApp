@@ -1,0 +1,26 @@
+/* 
+  Localizable.strings
+  TheMovieApp
+
+  Created by Khoa Nguyen on 24/03/2021.
+  
+*/
+
+"review.now" = "Just now";
+"review.minute" = "%ld minutes ago";
+"review.hour" = "%ld hours ago";
+"review.day" = "%ld days ago";
+"review.week" = "%ld weeks ago";
+"review.month" = "So long ago";
+
+///
+"detail.rate.section" = "Your Rate";
+"detail.cast.section" = "Series Cast";
+"detail.video.section" = "Video";
+"detail.review.section" = "Comments";
+"detail.recommend.section" = "Recommendtions";
+
+///Alert
+"alert.confirm" = "OK";
+"alert.cancel" = "Cancel";
+

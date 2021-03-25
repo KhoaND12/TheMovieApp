@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" reuseIdentifier="MovieRecommedCell" id="gTV-IL-0wX" customClass="MovieRecommedCell" customModule="TheMovieApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="158" height="299"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="158" height="299"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cGt-ra-Tit">
+                        <rect key="frame" x="0.0" y="0.0" width="158" height="237"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="byS-Kx-d8t">
+                                <rect key="frame" x="0.0" y="0.0" width="158" height="237"/>
+                                <color key="backgroundColor" systemColor="systemGray3Color"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="6"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="byS-Kx-d8t" firstAttribute="top" secondItem="cGt-ra-Tit" secondAttribute="top" id="2UI-BC-fB4"/>
+                            <constraint firstAttribute="bottom" secondItem="byS-Kx-d8t" secondAttribute="bottom" id="MaA-2U-KFh"/>
+                            <constraint firstItem="byS-Kx-d8t" firstAttribute="leading" secondItem="cGt-ra-Tit" secondAttribute="leading" id="l8U-ZE-9tB"/>
+                            <constraint firstAttribute="width" secondItem="cGt-ra-Tit" secondAttribute="height" multiplier="100:150" id="vw2-Tm-kuz"/>
+                            <constraint firstAttribute="trailing" secondItem="byS-Kx-d8t" secondAttribute="trailing" id="xKX-ZK-Vjm"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="6"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Justice League" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lla-vB-jTJ">
+                        <rect key="frame" x="5" y="247" width="148" height="17.5"/>
+                        <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="15"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="cGt-ra-Tit" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="3t3-CI-UCa"/>
+                <constraint firstAttribute="trailing" secondItem="Lla-vB-jTJ" secondAttribute="trailing" constant="5" id="7r4-ID-PI4"/>
+                <constraint firstItem="cGt-ra-Tit" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="BT6-z5-Qz5"/>
+                <constraint firstAttribute="trailing" secondItem="cGt-ra-Tit" secondAttribute="trailing" id="Wd8-QY-SAw"/>
+                <constraint firstItem="Lla-vB-jTJ" firstAttribute="top" secondItem="cGt-ra-Tit" secondAttribute="bottom" constant="10" id="ezK-77-Tbg"/>
+                <constraint firstItem="Lla-vB-jTJ" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="5" id="k0D-T2-K1S"/>
+            </constraints>
+            <size key="customSize" width="158" height="299"/>
+            <connections>
+                <outlet property="imageContainerView" destination="cGt-ra-Tit" id="oO2-B8-gJA"/>
+                <outlet property="imageView" destination="byS-Kx-d8t" id="ObN-du-acr"/>
+                <outlet property="titleLabel" destination="Lla-vB-jTJ" id="OWD-hx-NkR"/>
+            </connections>
+            <point key="canvasLocation" x="210.1449275362319" y="138.95089285714286"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGray3Color">
+            <color red="0.7803921568627451" green="0.7803921568627451" blue="0.80000000000000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
