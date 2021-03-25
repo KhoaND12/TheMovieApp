@@ -8,10 +8,10 @@
 6. open TheMovieApp.xcworkspace and run the project
 
 ## Technologies
-Comico VN use the following architecture and technologies
+TheMovieApp use the following architecture and technologies
 1. [MVVM](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93viewmodel) 
 2. [RxSwift](https://github.com/ReactiveX/RxSwift)
 3. [Coordinator pattern](https://github.com/quickbirdstudios/XCoordinator)
-4. [DifferenceKit for Swift Collection] (https://github.com/ra1028/DifferenceKit)
-5. [Moya/Reactive for networking] (https://github.com/Moya/Moya)
+4. [DifferenceKit] (https://github.com/ra1028/DifferenceKit)
+5. [Moya/Reactive] (https://github.com/Moya/Moya)
 6. [Kingfisher] (https://github.com/onevcat/Kingfisher)
