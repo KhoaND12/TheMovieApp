@@ -184,27 +184,6 @@ extension UIView {
         return nil
     }
     
-    var topSafeArea: CGFloat {
-        get {
-            if #available(iOS 11, *) {
-                return UIApplication.shared.keyWindow?.safeAreaInsets.top ?? 0.0
-            }
-            return 0.0
-        }
-    }
-    
-    var isHiddenInStackView: Bool {
-        get {
-            return isHidden
-        }
-        set {
-            if isHidden != newValue {
-                isHidden = newValue
-            }
-        }
-    }
-    
-    
 }
 
 //MARK:- FUNCTION

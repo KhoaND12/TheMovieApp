@@ -11,7 +11,6 @@ import DifferenceKit
 import Action
 import RxCocoa
 import Resolver
-import SwiftyUserDefaults
 import SwiftEntryKit
 import RxAppState
 

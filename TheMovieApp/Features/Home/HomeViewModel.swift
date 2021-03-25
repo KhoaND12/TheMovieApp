@@ -12,7 +12,6 @@ import Resolver
 import DifferenceKit
 import XCoordinator
 import Action
-import SwiftyUserDefaults
 
 class HomeViewModel: ViewModel, HomeViewModelType {
     

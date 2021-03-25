@@ -6,7 +6,6 @@
 //
 
 import Kingfisher
-import SwiftyUserDefaults
 
 class LibsManager: NSObject {
     /// The default singleton instance.

@@ -14,7 +14,6 @@ target 'TheMovieApp' do
   pod 'Action'
   pod 'XCoordinator/RxSwift', '~> 2.0'
   pod 'Resolver', :git => 'https://github.com/hmlongco/Resolver.git'
-  pod "RxGesture"
 
   # auto layout
   pod 'SnapKit'
@@ -23,10 +22,6 @@ target 'TheMovieApp' do
   pod 'SwiftEntryKit', '1.0.2'
   pod 'DifferenceKit'
   pod 'Cosmos', '~> 23.0'
-
-  # save data
-  pod 'KeychainAccess'
-  pod 'SwiftyUserDefaults'
 
   # clean code
   pod 'R.swift'
