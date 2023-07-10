@@ -1,0 +1,8 @@
+language: objective-c
+osx_image: xcode10.1
+xcode_workspace: TheLastProject.xcworkspace
+xcode_scheme: TheLastProject_Development
+xcode_destination: platform=iOS Simulator,OS=12.1,name=iPhone X
+before_install:
+  - bundle install
+  - bundle exec pod install --repo-update
